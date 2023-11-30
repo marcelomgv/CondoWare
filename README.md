@@ -1,5 +1,3 @@
-CONDONWARE
-
 Projeto criado em Java pelo NetBeans, simulando um aplicativo de gerenciamento de um condominio, e fazendo operações no postgresql através do java.
 
 Para funcionar abra o projeto CondoWare no NetBeans. O aquivo "postgresql-42.6.0.jar" precisa ser colocado em "libraries" no projeto, além disso adicionar o "jcalendar-1.4.jar" no NetBeans - Video de como instalar: https://www.youtube.com/watch?v=7_2bQq38PYU.
