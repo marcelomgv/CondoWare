@@ -250,7 +250,7 @@ public class Conexao {
                     func.setCargo(cargo);
                     func.getVeiculo().setPlaca(placa);
                     func.setEmail(email);
-                    func.setSenha(senha);;
+                    func.setSenha(senha);
                     Bancos.getBancos().getBdFuncionario().add(func);
                 }
             } catch (SQLException e) {
@@ -330,10 +330,15 @@ public class Conexao {
     }
     
     public int editFuncionario(String nome, Float salario, String cargo,String email, String senha, String placa, String cpf) {
-        int res = 0;
+        if(placa.equals("")) {
+            placa = "null";
+        }
+        else {
+            placa = "'"+placa+"'";
+        }
         try {
             Statement stm = con.createStatement();
-            res = stm.executeUpdate("UPDATE relatorio_funcionarios SET nome = '"+ nome + "', salario = "+salario+", cargo = '"+cargo+"', email = '" + email + "', senha = '" + senha + "', placa = '" + placa + "' WHERE cpf = " + cpf);
+            stm.executeUpdate("UPDATE relatorio_funcionarios SET nome = '"+ nome + "', salario = "+salario+", cargo = '"+cargo+"', email = '" + email + "', senha = '" + senha + "', placa = " + placa + " WHERE cpf = " + cpf);
         } catch (SQLException e) {
             return 0;
         }

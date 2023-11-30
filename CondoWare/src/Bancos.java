@@ -58,7 +58,6 @@ public class Bancos {
         return bdAreasAlugadas;
     }
     
-    
     public Condominio addCondominio(Condominio condominio) {
         bdCondominio.add(condominio);
         return condominio;
@@ -98,4 +97,5 @@ public class Bancos {
         bdAreasAlugadas.add(areasAlugadas);
         return areasAlugadas;
     }
+    
 }
