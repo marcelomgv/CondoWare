@@ -7,3 +7,6 @@ OBS: Verificar se em "libraries" o arquivo "jcalendar-1.4.jar" foi adicionado au
 Na pasta "Banco" tem os dados para o bando de dados, onde ele deverá chamar "CondoWare".
 
 Ao iniciar o sistema informar sua senha de acesso ao PostgreSql no campo "Senha para o Postgre" e realizar a conexão.
+
+
+Os códigos também podem ser acessados pelo repositório git: https://github.com/marcelomgv/ProjetoPOO2-CondoWare.git
