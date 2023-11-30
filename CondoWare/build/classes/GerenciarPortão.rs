@@ -1,0 +1,5 @@
+CondoWare2.GerenciarPortão
+CondoWare2.GerenciarPortão$3
+CondoWare2.GerenciarPortão$4
+CondoWare2.GerenciarPortão$1
+CondoWare2.GerenciarPortão$2

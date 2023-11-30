@@ -1,0 +1,5 @@
+CondoWare2.RegistrarProblemas$4
+CondoWare2.RegistrarProblemas$3
+CondoWare2.RegistrarProblemas$2
+CondoWare2.RegistrarProblemas$1
+CondoWare2.RegistrarProblemas

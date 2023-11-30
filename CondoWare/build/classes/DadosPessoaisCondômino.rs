@@ -1,0 +1,5 @@
+CondoWare2.DadosPessoaisCondômino$3
+CondoWare2.DadosPessoaisCondômino$4
+CondoWare2.DadosPessoaisCondômino$1
+CondoWare2.DadosPessoaisCondômino$2
+CondoWare2.DadosPessoaisCondômino
